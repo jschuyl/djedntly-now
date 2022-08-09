@@ -35,14 +35,29 @@ button {
     color: var(--light);
 }
 /* says where my name goes */
-header h1 {
+h1 {
     font-size: 300%;
     line-height: 100px;
     -webkit-text-stroke: 3px;
     -webkit-text-stroke-color: var(--base);
     font-family: sans-serif;
 }
-
+section h1 {
+    color: var(--accent);
+    position: relative;
+    left:  50px;
+}
+h2 {
+    font-size: 300%;
+    line-height: 100px;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: var(--base);
+    font-family: sans-serif;
+    color: var(--accent);
+    position: relative;
+    right:  50px;
+    float: right;
+}
 header p{
     font-size: 30px;
     display: inline-block;
