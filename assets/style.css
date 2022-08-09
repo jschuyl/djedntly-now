@@ -53,8 +53,6 @@ h2 {
     -webkit-text-stroke-color: var(--base);
     font-family: sans-serif;
     color: var(--accent);
-    position: relative;
-    float: right;
 }
 header p{
     font-size: 30px;
@@ -72,7 +70,7 @@ nav ul li{
     color: var(--base)
 }
 img {
-    max-width: 200px;
+    max-width: 300px;
     float: left;
     flex-direction: row;
     padding-left: 25px;
@@ -84,14 +82,6 @@ about-me {
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-}
-about-me div {
-    flex-direction: row;
-    width: auto;
-    padding: 10px;
-    background-color: var(--dark);
-    border: 5px solid var(--accent);
-    margin: 0;
 }
 /* orange line for that POP */
 .borders {
@@ -111,9 +101,35 @@ about-me div {
 }
 .align-right {
     float: right;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
 }
 .align-left {
+    display: flex;
     float: left;
+    flex-direction: row;
+    align-items: center;
+}
+.word-box-left {
+    width: auto;
+    background-color: var(--dark);
+    border: 5px solid var(--accent);
+    margin: 5px;
+    width: auto;
+    max-width: 1400px;
+    padding: 5px;
+    left: 440px;
+}
+.word-box-left {
+    width: auto;
+    background-color: var(--dark);
+    border: 5px solid var(--accent);
+    margin: 5px;
+    width: auto;
+    max-width: 1400px;
+    padding: 5px;
+    right: 440px;
 }
 /* for smaller screens **NEEDS WORK** */
 @media screen and (max-width: 1139px){
