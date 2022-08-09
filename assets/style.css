@@ -109,6 +109,12 @@ about-me div {
   bottom: 0px;
   border: 4px solid var(--base);
 }
+.align-right {
+    float: right;
+}
+.align-left {
+    float: left;
+}
 /* for smaller screens **NEEDS WORK** */
 @media screen and (max-width: 1139px){
     header {
