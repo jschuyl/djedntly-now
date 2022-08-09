@@ -42,10 +42,9 @@ h1 {
     -webkit-text-stroke-color: var(--base);
     font-family: sans-serif;
 }
-section h1 {
+main-entry h1 {
     color: var(--accent);
     position: relative;
-    left:  50px;
 }
 h2 {
     font-size: 300%;
@@ -55,7 +54,6 @@ h2 {
     font-family: sans-serif;
     color: var(--accent);
     position: relative;
-    right:  50px;
     float: right;
 }
 header p{
@@ -71,7 +69,29 @@ nav ul li{
     display: flex;
     float: right;
     padding: 3px;
-    color: var(--base);
+    color: var(--base)
+}
+img {
+    max-width: 200px;
+    float: left;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* paragraphs and pictures for body */
+about-me {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+about-me div {
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+    background-color: var(--dark);
+    border: 5px solid var(--accent);
+    margin: 0;
 }
 /* orange line for that POP */
 .borders {
