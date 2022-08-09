@@ -77,11 +77,8 @@ img {
     padding-right: 25px;
 }
 /* paragraphs and pictures for body */
-about-me {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
+main-entry h1 {
+    padding-left: 25px;
 }
 /* orange line for that POP */
 .borders {
@@ -90,7 +87,7 @@ about-me {
 }
 /*black line above orange border*/
 .borders::after {
-    content: " ";
+    content: " "; /*don't delete this*/
   position: absolute;
   z-index: 1;
   top: auto;
@@ -100,8 +97,8 @@ about-me {
   border: 4px solid var(--base);
 }
 .align-right {
+    display: flex;
     float: right;
-    flex-direction: row;
     flex-direction: row;
     align-items: center;
 }
