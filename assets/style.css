@@ -4,31 +4,49 @@
     --accent: rgb(247, 89, 0);
     --base: black;
 }
-/* name and description */
-.nav-name-and-desc {
-    height: auto;
-    background-color: var(--dark);
-    display: flex;
-    flex-direction: column;
+img {
+    max-width: 30%;
 }
-/* determines where buttons are */
-.nav-buttons {
-    height: auto;
+/* name and description */
+.navbar {
+    height: 38px;
+    padding: 2px;
     display: flex;
     flex-direction: row;
+/* determines where buttons are */
+    height: auto;
+    font-size: large;
     width: auto;
     background-color: var(--dark);
-    justify-content: end;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
 }
 /* button stylizing */
-.button{
-    height: 69px;
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
     width: 125px;
     background: var(--accent);
     color: var(--base);
     margin: 10px;
+}
+
 /* button words location */
+.navbar li a {
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.name {
+    font-size: x-large;
+    font-weight: bold; 
 }
